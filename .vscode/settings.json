@@ -1,0 +1,7 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "code-runner.executorMap": {
+        "java": "powershell -ExecutionPolicy Bypass -File \"D:\\Influish-Automation\\.vscode\\run-appium.ps1\""
+    },
+    "code-runner.runInTerminal": true
+}

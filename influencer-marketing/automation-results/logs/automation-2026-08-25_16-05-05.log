@@ -1,0 +1,66 @@
+==================================================
+APPIUM AUTOMATION LOG
+==================================================
+Started: 2026-08-25T16:05:05.324075700
+Device: moto g85 5g
+UDID: ZA222MSVRX
+Package: com.influencer.marketing
+
+2026-08-25 16:05:05 [STEP] STEP 0: STARTING APPIUM
+2026-08-25 16:05:05 [INFO] Connecting to Appium server...
+2026-08-25 16:05:05 [INFO] Server: http://127.0.0.1:4723
+2026-08-25 16:05:18 [PASS] Appium session created successfully.
+2026-08-25 16:05:18 [PASS] Appium connected successfully.
+2026-08-25 16:05:18 [INFO] Device: moto g85 5g
+2026-08-25 16:05:18 [INFO] UDID: ZA222MSVRX
+2026-08-25 16:05:18 [INFO] Package: com.influencer.marketing
+2026-08-25 16:05:18 [INFO] Activity: .MainActivity
+2026-08-25 16:05:18 [PASS] Application launched successfully.
+2026-08-25 16:05:18 [PASS] ✓ STEP 0 COMPLETED
+2026-08-25 16:05:18 [PASS] STEP 0 COMPLETED
+2026-08-25 16:05:18 [STEP] STEP 1: CONTENT CREATOR
+2026-08-25 16:05:18 [INFO] Looking for Content Creator...
+2026-08-25 16:05:30 [PASS] Content Creator found.
+2026-08-25 16:05:30 [PASS] Content Creator clicked.
+2026-08-25 16:05:30 [PASS] ✓ STEP 1 COMPLETED
+2026-08-25 16:05:30 [PASS] STEP 1 COMPLETED
+2026-08-25 16:05:30 [STEP] STEP 2: GOOGLE AUTOFILL
+2026-08-25 16:05:30 [INFO] Skipping Google Autofill handling.
+2026-08-25 16:05:30 [PASS] Google Autofill handling skipped.
+2026-08-25 16:05:30 [PASS] ✓ STEP 2 COMPLETED
+2026-08-25 16:05:30 [PASS] STEP 2 COMPLETED
+2026-08-25 16:05:30 [STEP] STEP 3: MOBILE NUMBER
+2026-08-25 16:05:30 [INFO] Looking for mobile number field...
+2026-08-25 16:05:31 [ERROR] 
+2026-08-25 16:05:31 [ERROR] ==================================================
+2026-08-25 16:05:31 [ERROR]               AUTOMATION FAILED
+2026-08-25 16:05:31 [ERROR] ==================================================
+2026-08-25 16:05:31 [ERROR] Failed Step: STEP 3 - MOBILE NUMBER
+2026-08-25 16:05:31 [ERROR] Reason: Mobile number field not found.
+2026-08-25 16:05:31 [ERROR] Failed Step: STEP 3 - MOBILE NUMBER
+2026-08-25 16:05:31 [ERROR] Reason: Mobile number field not found.
+2026-08-25 16:05:31 [ERROR] Exception Details:
+java.lang.RuntimeException: Mobile number field not found.
+	at com.influencer.marketing.AppiumConnectionTest.enterMobileNumber(AppiumConnectionTest.java:671)
+	at com.influencer.marketing.AppiumConnectionTest.main(AppiumConnectionTest.java:240)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:375)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:364)
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:286)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2026-08-25 16:05:32 [ERROR] Current Package: com.google.android.gms
+2026-08-25 16:05:32 [ERROR] Current Activity: .auth.api.credentials.assistedsignin.ui.PhoneNumberHintActivity
+2026-08-25 16:05:33 [PASS] Failure screenshot saved:
+2026-08-25 16:05:33 [INFO] D:\Influish-Automation\influencer-marketing\automation-results\screenshots\FAILURE_STEP_3_-_MOBILE_NUMBER_2026-08-25_16-05-31.png
+2026-08-25 16:05:33 [ERROR] Screenshot saved: D:\Influish-Automation\influencer-marketing\automation-results\screenshots\FAILURE_STEP_3_-_MOBILE_NUMBER_2026-08-25_16-05-31.png
+2026-08-25 16:05:33 [PASS] Failure page source saved:
+2026-08-25 16:05:33 [INFO] D:\Influish-Automation\influencer-marketing\automation-results\screenshots\FAILURE_STEP_3_-_MOBILE_NUMBER_2026-08-25_16-05-31.xml
+2026-08-25 16:05:33 [ERROR] Page source saved: D:\Influish-Automation\influencer-marketing\automation-results\screenshots\FAILURE_STEP_3_-_MOBILE_NUMBER_2026-08-25_16-05-31.xml
+2026-08-25 16:05:33 [ERROR] Complete error log saved:
+2026-08-25 16:05:33 [ERROR] D:\Influish-Automation\influencer-marketing\automation-results\logs\automation-2026-08-25_16-05-05.log
+2026-08-25 16:05:34 [WARNING] Appium session closed after failure.
+
+==================================================
+AUTOMATION EXECUTION FINISHED
+Time: 2026-08-25T16:05:34.301664500
+==================================================
