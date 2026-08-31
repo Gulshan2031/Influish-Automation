@@ -68,10 +68,10 @@ import java.util.Map;
             // =========================================================
 
             private static final String DEVICE_ID =
-                    config("APPIUM_DEVICE_ID", "ZA222MSVRX");
+                    config("APPIUM_DEVICE_ID", "YYYYYYYYX");
 
             private static final String DEVICE_NAME =
-                    config("APPIUM_DEVICE_NAME", "moto g85 5g");
+                    config("APPIUM_DEVICE_NAME", "moto");
 
             private static final String APP_PACKAGE =
                     config("APPIUM_APP_PACKAGE", "com.influencer.marketing");
@@ -83,12 +83,11 @@ import java.util.Map;
                     config("APPIUM_SERVER_URL", "http://127.0.0.1:4723");
 
             private static final String MOBILE_NUMBER =
-                    "REDACTED";
+                    config("TEST_MOBILE_NUMBER", "REDACTED");
 
-            private static final String TEST_OTP =
-                    "REDACTED";
-
-
+	    private static final String TEST_OTP =
+                    config("TEST_OTP", "REDACTED");
+            
             // =========================================================
             // TIMEOUTS
             // =========================================================
